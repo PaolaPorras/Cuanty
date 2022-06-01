@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--favicon-->
+    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+    <!--plugins-->
+    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+    <link href="assets/plugins/fancy-file-uploader/fancy_fileupload.css" rel="stylesheet" />
+    <link href="assets/plugins/Drag-And-Drop/dist/imageuploadify.min.css" rel="stylesheet" />
+    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+    <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+    <link href="assets/plugins/smart-wizard/css/smart_wizard_all.min.css" rel="stylesheet" type="text/css" />
+    <!-- loader-->
+    <link href="assets/css/pace.min.css" rel="stylesheet" />
+    <script src="assets/js/pace.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <link href="assets/css/icons.css" rel="stylesheet" />
+    <!-- Theme Style CSS -->
+    <link rel="stylesheet" href="assets/css/dark-theme.css" />
+    <link rel="stylesheet" href="assets/css/semi-dark.css" />
+    <link rel="stylesheet" href="assets/css/header-colors.css" />
+    <title>Cuanty</title>
+</head>
+
+<body>
+    <!--wrapper-->
+    <div class="wrapper">
+        <!--start header wrapper-->
+        <div class="header-wrapper">
+            <!--start header -->
+            <header>
+                <div class="topbar d-flex align-items-center">
+                    <nav class="navbar navbar-expand">
+                        <div class="topbar-logo-header">
+                            <div class="">
+                                <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+                            </div>
+                            <div class="">
+                                <h4 class="logo-text">Cuanty</h4>
+                            </div>
+                        </div>
+                        <div class="mobile-toggle-menu"><i class='bx bx-menu'></i></div>
+                        <div class="search-bar flex-grow-1">
+                            <div class="position-relative search-bar-box">
+                                <input type="text" class="form-control search-control"
+                                    placeholder="Que deseas buscar..."> <span
+                                    class="position-absolute top-50 search-show translate-middle-y"><i
+                                        class='bx bx-search'></i></span>
+                                <span class="position-absolute top-50 search-close translate-middle-y"><i
+                                        class='bx bx-x'></i></span>
+                            </div>
+                        </div>
+                        <div class="top-menu ms-auto">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item mobile-search-icon">
+                                    <a class="nav-link" href="#"> <i class='bx bx-search'></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="user-box dropdown">
+                            <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret"
+                                href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/images/avatars/avatar-2.png" class="user-img" alt="user avatar">
+                                <div class="user-info ps-3">
+                                    <p class="user-name mb-0">ALTOSENTIDO</p>
+                                    <p class="designattion mb-0">info@altosentido.net</p>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class="bx bx-user"></i><span>Perfil</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class="bx bx-cog"></i><span>Configuración</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class='bx bx-bulb'></i><span>Ayuda</span></a>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider mb-0"></div>
+                                </li>
+                                <li><a class="dropdown-item" href="javascript:;"><i
+                                            class='bx bx-log-out-circle'></i><span>Cerrar sesión</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!--end header -->
+            <!--navigation-->
+            <div class="nav-container">
+                <div class="mobile-topbar-header">
+                    <div>
+                        <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+                    </div>
+                    <div>
+                        <h4 class="logo-text">Cuanty</h4>
+                    </div>
+                    <div class="toggle-icon ms-auto"><i class='bx bx-first-page'></i>
+                    </div>
+                </div>
+                <nav class="topbar-nav">
+                    <ul class="metismenu" id="menu">
+                        <li>
+                            <a href="javascript:;" class="has-arrow">
+                                <div class="parent-icon"><i class='bx bx-home-circle'></i>
+                                </div>
+                                <div class="menu-title">Inicio</div>
+                            </a>
+                            <ul>
+                                <li> <a href="04-registrarse-empresa.html"><i
+                                            class="bx bx-right-arrow-alt"></i>Empresa</a>
+                                </li>
+                                <li> <a href="Socios.html"><i class="bx bx-right-arrow-alt"></i>Socios</a>
+                                </li>
+                                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Reportes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="has-arrow">
+                                <div class="parent-icon"><i class="bx bx-category"></i>
+                                </div>
+                                <div class="menu-title">Diagnostico</div>
+                            </a>
+                            <ul>
+                                <li> <a href="Perfil-emprendedor.html"><i class="bx bx-right-arrow-alt"></i>Perfil
+                                        emprendedores</a>
+                                </li>
+                                <li> <a href="Direccionamiento-estrategico.html"><i
+                                            class="bx bx-right-arrow-alt"></i>Direccionamiento estratégico</a>
+                                </li>
+                                <li> <a href="Financiero.html"><i class="bx bx-right-arrow-alt"></i>Financiero</a>
+                                </li>
+                                <li> <a href="Mercadeoyventas.html"><i class="bx bx-right-arrow-alt"></i>Mercadeo y
+                                        ventas</a>
+                                </li>
+                                <li> <a href="Gestiontecnica.html"><i class="bx bx-right-arrow-alt"></i>Gestión técnica
+                                        y producción</a>
+                                </li>
+                                <li> <a href="Administración-normativa.html"><i
+                                            class="bx bx-right-arrow-alt"></i>Administración, normatividad y
+                                        talento humano</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--end navigation-->
+
+            </li>
+            </ul>
+            </nav>
+        </div>
+        <!--end navigation-->
+    </div>
+    <!--end header wrapper-->
+    <!--start page wrapper -->
+    <div class="page-wrapper">
+        <div class="page-content">
+            <header>
+                <div class="wrapper">
+                    <div class="authentication-header bg-login"></div>
+                    <header class="login-header shadow">
+                        <nav
+                            class="navbar navbar-expand-lg navbar-light bg-white rounded fixed-top rounded-0 shadow-sm">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#">
+                                    <img src="assets/images/cuanty/logo-cuanty-90.png" width="140" alt="" />
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+                                    aria-expanded="false" aria-label="Toggle navigation"> <span
+                                        class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#"><i
+                                                    class='bx bx-home-alt me-1'></i>Inicio</a>
+                                        </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#"><i
+                                                    class='bx bx-bulb me-1'></i>Ayuda</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                    <div class="d-flex align-items-center justify-content-center my-5">
+                        <div class="container">
+                            <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-2">
+                                <div class="col mx-auto mt-5">
+                                    <div class="card mt-5">
+                                        <div class="card-body">
+                                            <div class="border p-4 rounded">
+                                                <div class="cuanty-ico">
+                                                    <img src="assets\images\cuanty\icon\Recurso-7.png" />
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xl-12 mx-auto">
+                                                        <h6 class="mb-0 text-uppercase">Diligencia el formulario</h6>
+                                                        <hr />
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <br />
+                                                                <p>
+                                                                    <!-- SmartWizard html -->
+                                                                <div id="smartwizard">
+                                                                    <div
+                                                                        class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+                                                                        <div class="ms-auto">
+                                                                            <div class="btn-group">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary">Guardar</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <ul class="nav">
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link" href="#step-1">
+                                                                                <strong>1</strong>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link" href="#step-2">
+                                                                                <strong>2</strong>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link" href="#step-3">
+                                                                                <strong>3</strong>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link"
+                                                                                href="#step-4"><strong>4</strong></a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link"
+                                                                                href="#step-5"><strong>5</strong></a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                            <a class="nav-link"
+                                                                                href="#step-6"><strong>6</strong></a>
+                                                                        </li>
+                                                                    </ul>
+
+
+                                                                    <div class="tab-content">
+                                                                        <div id="step-1" class="tab-pane"
+                                                                            role="tabpanel" aria-labelledby="step-1">
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    cuenta con un proceso para
+                                                                                    conocer el
+                                                                                    Tamaño del Mercado que atiende y
+                                                                                    el perfil de su cliente.
+                                                                                </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    tiene clara su propuesta de
+                                                                                    valor
+                                                                                </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    tiene definida su cadena de
+                                                                                    valor desde
+                                                                                    los proveedores hasta la entrega
+                                                                                    a satisfacción de su propuesta
+                                                                                    de
+                                                                                    valor. </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    hace uso de una base de datos de
+                                                                                    sus
+                                                                                    clientes. </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    tiene establecida una estrategia
+                                                                                    comercial para la consecución de
+                                                                                    nuevos clientes. </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div id="step-2" class="tab-pane"
+                                                                            role="tabpanel" aria-labelledby="step-2">
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    cuenta con una estrategia
+                                                                                    establecida
+                                                                                    para lograr la fidelidad de los
+                                                                                    clientes. </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">LLa
+                                                                                    empresa ha definido estrategias
+                                                                                    para la
+                                                                                    promoción de sus productos o
+                                                                                    servicios. </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    cuenta con imagen corporativa.
+                                                                                </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    maneja políticas de precios con
+                                                                                    base en
+                                                                                    costos de producción y precios
+                                                                                    de mercado. </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    cuenta con una estrategia de
+                                                                                    comparación de sus precios,
+                                                                                    calidad, imagen, instalaciones
+                                                                                    con los de la
+                                                                                    competencia </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div id="step-3" class="tab-pane"
+                                                                            role="tabpanel" aria-labelledby="step-3">
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    cuenta con una estrategia de
+                                                                                    diferenciación del producto de
+                                                                                    la competencia. </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    tiene un proceso de evaluación
+                                                                                    de la
+                                                                                    satisfacción del cliente con
+                                                                                    respecto a los productos y
+                                                                                    servicios
+                                                                                    ofrecidos </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    cuenta con un proceso de mejora
+                                                                                    a la
+                                                                                    prestación del servicio o
+                                                                                    producto con base en las quejas,
+                                                                                    sugerencias y
+                                                                                    opiniones de los
+                                                                                    clientes.</label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    revisa y hace seguimiento
+                                                                                    periódicamente al resultado de
+                                                                                    la gestión de ventas </label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">La empresa
+                                                                                    cuenta con una estrategia de
+                                                                                    mercadeo
+                                                                                    digital.</label>
+                                                                                <div class="input-group">
+                                                                                    <select
+                                                                                        class="single-select form-select">
+                                                                                        <option selected>
+                                                                                            Selecciona...</option>
+                                                                                        <option value="1">Esta
+                                                                                            implementado y funciona
+                                                                                            adecuadamente
+                                                                                        </option>
+                                                                                        <option value="2">Esta
+                                                                                            implementado en proceso
+                                                                                            de mejora</option>
+                                                                                        <option value="3">Esta en
+                                                                                            proceso de
+                                                                                            implementación</option>
+                                                                                        <option value="4">Se conoce
+                                                                                            pero no se ha
+                                                                                            implementado</option>
+                                                                                        <option value="5">Se
+                                                                                            desconoce</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div id="step-4" class="tab-pane"
+                                                                            role="tabpanel" aria-labelledby="step-4">
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">Ventas
+                                                                                    promedio en pesos de la empresa
+                                                                                    en los
+                                                                                    últimos 12 meses </label>
+                                                                                <input type="number" min="1" max="50"
+                                                                                    class="form-control">
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">No de
+                                                                                    clientes de la empresa en los
+                                                                                    últimos 6
+                                                                                    meses </label>
+                                                                                <input type="number" min="1" max="50"
+                                                                                    class="form-control">
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">No de
+                                                                                    clientes que representan el 80%
+                                                                                    de las
+                                                                                    ventas de la empresa
+                                                                                    actualmente</label>
+                                                                                <input type="number" min="1" max="50"
+                                                                                    class="form-control">
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">No de
+                                                                                    segmentos de clientes que
+                                                                                    atiende la empresa
+                                                                                    actualmente </label>
+                                                                                <input type="number" min="1" max="50"
+                                                                                    class="form-control">
+                                                                            </div>
+
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label">No de
+                                                                                    canales de distribución que
+                                                                                    maneja la
+                                                                                    empresa actualmente </label>
+                                                                                <input type="number" min="1" max="50"
+                                                                                    class="form-control">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    </di>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--end row-->
+                                                    </div>
+                                                </div>
+                                                <!--end page wrapper -->
+                                                <!--start overlay-->
+                                                <div class="overlay toggle-icon"></div>
+                                                <!--end overlay-->
+                                                <!--Start Back To Top Button-->
+                                                <a href="javaScript:;" class="back-to-top"><i
+                                                        class="bx bxs-up-arrow-alt"></i></a>
+                                                <!--End Back To Top Button-->
+                                                <footer
+                                                    class="bg-white shadow-sm border-top p-2 text-center fixed-bottom">
+                                                    <p class="mb-0">Cuanty © 2021. Todos los derechos reservados.</p>
+                                                </footer>
+                                            </div>
+                                        </div>
+                                        <!--end wrapper-->
+                                        <!-- Bootstrap JS -->
+                                        <script src="assets/js/bootstrap.bundle.min.js"></script>
+                                        <!--plugins-->
+                                        <script src="assets/js/jquery.min.js"></script>
+                                        <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+                                        <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+                                        <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+                                        <script src="assets/plugins/smart-wizard/js/jquery.smartWizard.min.js"></script>
+                                        <script
+                                            src='https://cdn.tiny.cloud/1/vdqx2klew412up5bcbpwivg1th6nrh3murc6maz8bukgos4v/tinymce/5/tinymce.min.js'
+                                            referrerpolicy="origin">
+                                            </script>
+                                        <script src="assets/plugins/fancy-file-uploader/jquery.ui.widget.js"></script>
+                                        <script src="assets/plugins/fancy-file-uploader/jquery.fileupload.js"></script>
+                                        <script src="assets/plugins/fancy-file-uploader/jquery.iframe-transport.js">
+                                        </script>
+                                        <script src="assets/plugins/fancy-file-uploader/jquery.fancy-fileupload.js">
+                                        </script>
+                                        <script src="assets/plugins/Drag-And-Drop/dist/imageuploadify.min.js"></script>
+                                        <script>
+                                            $('#fancy-file-upload').FancyFileUpload({
+                                                params: {
+                                                    action: 'fileuploader'
+                                                },
+                                                maxfilesize: 1000000
+                                            });
+                                        </script>
+                                        <script>
+                                            $(document).ready(function () {
+                                                $('#image-uploadify').imageuploadify();
+                                            })
+                                        </script>
+                                        <!--app JS-->
+                                        <script src="assets/js/app.js"></script>
+                                        <script>
+                                            $(document).ready(function () {
+                                                // Toolbar extra buttons
+                                                var btnFinish = $("<button></button>")
+                                                    .text("Finalizar")
+                                                    .addClass("btn btn-info")
+                                                    .on("click", function () {
+                                                        alert("Finish Clicked");
+                                                    });
+                                                var btnCancel = $("<button></button>")
+                                                    .text("Cancelar")
+                                                    .addClass("btn btn-danger")
+                                                    .on("click", function () {
+                                                        $("#smartwizard").smartWizard("reset");
+                                                    });
+                                                // Step show event
+                                                $("#smartwizard").on(
+                                                    "showStep",
+                                                    function (e, anchorObject, stepNumber, stepDirection,
+                                                        stepPosition) {
+                                                        $("#prev-btn").removeClass("disabled");
+                                                        $("#next-btn").removeClass("disabled");
+                                                        if (stepPosition === "first") {
+                                                            $("#prev-btn").addClass("disabled");
+                                                        } else if (stepPosition === "last") {
+                                                            $("#next-btn").addClass("disabled");
+                                                        } else {
+                                                            $("#prev-btn").removeClass("disabled");
+                                                            $("#next-btn").removeClass("disabled");
+                                                        }
+                                                    }
+                                                );
+                                                // Smart Wizard
+                                                $("#smartwizard").smartWizard({
+                                                    selected: 0,
+                                                    theme: "dots",
+                                                    transition: {
+                                                        animation: "slide-horizontal", // Effect on navigation, none/fade/slide-horizontal/slide-vertical/slide-swing
+                                                    },
+                                                    toolbarSettings: {
+                                                        toolbarPosition: "both", // both bottom
+                                                        toolbarExtraButtons: [btnFinish, btnCancel],
+                                                    },
+                                                });
+                                                // External Button Events
+                                                $("#reset-btn").on("click", function () {
+                                                    // Reset wizard
+                                                    $("#smartwizard").smartWizard("reset");
+                                                    return true;
+                                                });
+                                                $("#prev-btn").on("click", function () {
+                                                    // Navigate Anterior
+                                                    $("#smartwizard").smartWizard("prev");
+                                                    return true;
+                                                });
+                                                $("#next-btn").on("click", function () {
+                                                    // Navigate next
+                                                    $("#smartwizard").smartWizard("next");
+                                                    return true;
+                                                });
+                                                // Demo Button Events
+                                                $("#got_to_step").on("change", function () {
+                                                    // Go to step
+                                                    var step_index = $(this).val() - 1;
+                                                    $("#smartwizard").smartWizard("goToStep",
+                                                        step_index);
+                                                    return true;
+                                                });
+                                                $("#is_justified").on("click", function () {
+                                                    // Change Justify
+                                                    var options = {
+                                                        justified: $(this).prop("checked"),
+                                                    };
+                                                    $("#smartwizard").smartWizard("setOptions",
+                                                        options);
+                                                    return true;
+                                                });
+                                                $("#animation").on("change", function () {
+                                                    // Change theme
+                                                    var options = {
+                                                        transition: {
+                                                            animation: $(this).val(),
+                                                        },
+                                                    };
+                                                    $("#smartwizard").smartWizard("setOptions",
+                                                        options);
+                                                    return true;
+                                                });
+                                                $("#theme_selector").on("change", function () {
+                                                    // Change theme
+                                                    var options = {
+                                                        theme: $(this).val(),
+                                                    };
+                                                    $("#smartwizard").smartWizard("setOptions",
+                                                        options);
+                                                    return true;
+                                                });
+                                            });
+                                        </script>
+                                        </script>
+                                        <script>
+                                            tinymce.init({
+                                                selector: '#mytextarea'
+                                            });
+                                        </script>
+                                        <!--app JS-->
+                                        <script src="assets/js/app.js"></script>
+</body>
+
+</html>
